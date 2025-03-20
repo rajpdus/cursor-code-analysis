@@ -4,6 +4,14 @@ description: Comprehensive code analysis using Cursor
 baseurl: "/cursor-code-analysis" # repository name
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Exclude from processing
+exclude:
+  - CursorDocGenTemplate.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
 # Theme settings
 search_enabled: true
 heading_anchors: true
@@ -12,7 +20,7 @@ color_scheme: light
 # Aux links for the upper right navigation
 aux_links:
   "View on GitHub":
-    - "https://github.com/rajpdus/cursor-code-analysis"
+    - "https://github.com/dushyant/cursor-code-analysis"
 
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
