@@ -7,15 +7,28 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Exclude from processing
 exclude:
   - CursorDocGenTemplate.md
+  - _CursorDocGenTemplate.md
   - .gitignore
   - Gemfile
   - Gemfile.lock
   - vendor
+  - "*.md.backup"
 
 # Theme settings
 search_enabled: true
 heading_anchors: true
 color_scheme: light
+
+# Navigation settings
+nav_external_links:
+  - title: GitHub Repository
+    url: https://github.com/dushyant/cursor-code-analysis
+    hide_icon: false
+
+# Control what appears in navigation
+# Just-the-docs specific settings
+# This tells the theme to only include files that have the "nav_order" attribute
+nav_only_include_files_with_nav_order: true
 
 # Aux links for the upper right navigation
 aux_links:
