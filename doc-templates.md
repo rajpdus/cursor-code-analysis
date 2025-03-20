@@ -3,9 +3,10 @@ layout: default
 title: Documentation Templates
 nav_order: 3
 permalink: /doc-templates
+has_children: false
 ---
 
-# Cursor Documentation Generation Guide
+# Documentation Templates
 
 This guide provides templates and commands to help you generate comprehensive documentation for your codebase using Cursor's AI capabilities.
 
