@@ -12,7 +12,7 @@ color_scheme: light
 # Aux links for the upper right navigation
 aux_links:
   "View on GitHub":
-    - "https://github.com/dushyant/cursor-code-analysis"
+    - "https://github.com/rajpdus/cursor-code-analysis"
 
 # Makes Aux links open in a new tab
 aux_links_new_tab: true

@@ -8,7 +8,7 @@ This repository contains the source files for the Cursor Code Analysis documenta
 
 ## Website
 
-Visit the documentation at: https://dushyant.github.io/cursor-code-analysis/
+Visit the documentation at: https://rajpdus.github.io/cursor-code-analysis/
 
 ## Local Development
 
