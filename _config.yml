@@ -1,0 +1,35 @@
+remote_theme: just-the-docs/just-the-docs
+title: Cursor Code Analysis
+description: Comprehensive code analysis using Cursor
+baseurl: "/cursor-code-analysis" # repository name
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Theme settings
+search_enabled: true
+heading_anchors: true
+color_scheme: light
+
+# Aux links for the upper right navigation
+aux_links:
+  "View on GitHub":
+    - "https://github.com/dushyant/cursor-code-analysis"
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+# Sort order for navigation links
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# Footer content
+footer_content: "Copyright &copy; 2024. Distributed under the MIT license."
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Enable copy code button
+enable_copy_code_button: true
+
+# Google Analytics (add your tracking ID if needed)
+ga_tracking:
+ga_tracking_anonymize_ip: true 
